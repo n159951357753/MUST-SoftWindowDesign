@@ -1,0 +1,28 @@
+public class Box
+{
+    // 成員變數
+    private double Width;
+    private double Height;
+    private double Length;
+
+    // 建構子
+    public Box(double width, double height, double length)
+    {
+        Width = width;
+        Height = height;
+        Length = length;
+    }
+
+    // 計算體積
+    public double Volume()
+    {
+        return Width * Height * Length;
+    }
+
+    // 計算表面積
+    public double Area()
+    {
+        // 盒子有 6 個面： 2*(寬*高) + 2*(寬*長) + 2*(高*長)
+        return 2 * (Width * Height + Width * Length + Height * Length);
+    }
+}
