@@ -1,0 +1,32 @@
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.exe
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.deps.json
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.runtimeconfig.json
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.pdb
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.Form1.resources
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.csproj.GenerateResource.cache
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.AssemblyInfoInputs.cache
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.AssemblyInfo.cs
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\refint\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.pdb
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.genruntimeconfig.cache
+C:\Users\Kevin\source\repos\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\ref\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.exe
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.deps.json
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.runtimeconfig.json
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\bin\Debug\net8.0-windows\HW4_9_2_ArrayRandom.pdb
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.Form1.resources
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.csproj.GenerateResource.cache
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.AssemblyInfoInputs.cache
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.AssemblyInfo.cs
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\refint\HW4_9_2_ArrayRandom.dll
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.pdb
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\HW4_9_2_ArrayRandom.genruntimeconfig.cache
+C:\Users\Kevin\source\repos\第八章-實作題-2 答案\HW4_9_2_ArrayRandom\HW4_9_2_ArrayRandom\obj\Debug\net8.0-windows\ref\HW4_9_2_ArrayRandom.dll
