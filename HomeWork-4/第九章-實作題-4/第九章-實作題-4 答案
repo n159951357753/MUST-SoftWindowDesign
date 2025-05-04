@@ -1,0 +1,85 @@
+using System;
+
+namespace CardsConsoleApp
+{
+    // PhoneList 類別
+    public class PhoneList
+    {
+        public string HomePhone { get; set; }
+        public string BusinessPhone { get; set; }
+        public string CellPhone { get; set; }
+
+        public PhoneList(string home, string business, string cell)
+        {
+            HomePhone = home;
+            BusinessPhone = business;
+            CellPhone = cell;
+        }
+    }
+
+    // Cards 類別
+    public class Cards
+    {
+        public string Name { get; set; }
+        public string Occupation { get; set; }
+        public int Age { get; set; }
+        public PhoneList Phone { get; set; }
+        public string Email { get; set; }
+
+        public Cards(string name, string occupation, int age, PhoneList phone, string email)
+        {
+            Name = name;
+            Occupation = occupation;
+            Age = age;
+            Phone = phone;
+            Email = email;
+        }
+
+        // 取得名片資料
+        public string GetCard()
+        {
+            return $"姓名: {Name}\n職業: {Occupation}\n年齡: {Age}\n" +
+                   $"住家電話: {Phone.HomePhone}\n公司電話: {Phone.BusinessPhone}\n手機: {Phone.CellPhone}\n" +
+                   $"Email: {Email}";
+        }
+    }
+
+    // 主程式
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 讓使用者輸入資料
+            Console.Write("請輸入姓名: ");
+            string name = Console.ReadLine();
+
+            Console.Write("請輸入職業: ");
+            string occupation = Console.ReadLine();
+
+            Console.Write("請輸入年齡: ");
+            int age = int.Parse(Console.ReadLine());
+
+            Console.Write("請輸入住家電話: ");
+            string homePhone = Console.ReadLine();
+
+            Console.Write("請輸入公司電話: ");
+            string businessPhone = Console.ReadLine();
+
+            Console.Write("請輸入手機號碼: ");
+            string cellPhone = Console.ReadLine();
+
+            Console.Write("請輸入Email: ");
+            string email = Console.ReadLine();
+
+            // 建立 PhoneList 和 Cards
+            PhoneList phoneList = new PhoneList(homePhone, businessPhone, cellPhone);
+            Cards card = new Cards(name, occupation, age, phoneList, email);
+
+            // 顯示名片
+            Console.WriteLine("\n======= 名片資料 =======");
+            Console.WriteLine(card.GetCard());
+
+            Console.ReadLine(); // 等待使用者按 Enter 關閉
+        }
+    }
+}
