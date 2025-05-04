@@ -7,5 +7,5 @@
   
   str.Substring(2, 4) -->  sual
   
-  str.IndexOf("程式") --> 10
+  str.IndexOf("程式") -->  10
 
