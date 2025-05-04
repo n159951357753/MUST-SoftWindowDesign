@@ -1,3 +1,16 @@
 第九章-簡答題目(6):
+  1.2.請舉例說明 private、protected 和 public 三種修飾子的用途和差異？
+  3.什麼是「工具方法」（Utility Methods）？
 
 答案:
+  1.private、protected 和 public 用途
+    a.private:    用來隱藏內部細節，讓類別內的屬性或方法只能在內部存取，防止外部誤用。
+    b.protected： 用來讓繼承的子類別可以存取，但外部無法直接使用。
+    c.public：    用來將成員公開，讓其他類別或程式可以直接存取或呼叫。
+
+  2.private、protected 和 public 差異
+    a.private：   只能在同一個類別內部存取。保護資料、封裝內部邏輯。
+    b.protected： 可以在同一個類別及繼承的子類別中存取。
+    c.public：    可以被任何其他類別存取。
+
+  3.工具方法是指提供通用功能、不依賴物件狀態的方法，通常是static 靜態方法。
