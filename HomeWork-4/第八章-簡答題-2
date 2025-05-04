@@ -3,8 +3,10 @@
     string str = "Visual C# 程式設計範例教本";
 
 答案:
+```
   str.ToUpper() -->  VISUAL C# 程式設計範例教本
   
   str.Substring(2, 4) -->  sual
   
   str.IndexOf("程式") -->  10
+```
