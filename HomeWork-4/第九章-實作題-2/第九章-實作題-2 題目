@@ -1,0 +1,6 @@
+第九章-實作題-2 題目:
+  請使用 C# 語言寫出 Box 類別的宣告來建立盒子物件，在類別中提供計算盒子的體積與面積，
+  並且繪出 Box 類別的 UML 類別圖，如下所示：
+    成員變數：Width、Height 和 Length 儲存寬、高和長。
+    建構子：Box(double width, double height, double length)。
+    成員方法：double Volume() 計算體積 和 double Area() 計算面積。
