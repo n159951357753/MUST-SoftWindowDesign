@@ -1,0 +1,16 @@
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\bin\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.exe
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\bin\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.deps.json
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\bin\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.runtimeconfig.json
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\bin\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.dll
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\bin\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.pdb
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.Form1.resources
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.csproj.GenerateResource.cache
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.AssemblyInfoInputs.cache
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.AssemblyInfo.cs
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.dll
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\refint\HW4_9_4_ArrayMinMaxApp.dll
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.pdb
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\HW4_9_4_ArrayMinMaxApp.genruntimeconfig.cache
+C:\Users\Kevin\source\repos\第八章-實作題-4 答案\HW4_9_4_ArrayMinMaxApp\HW4_9_4_ArrayMinMaxApp\obj\Debug\net8.0-windows\ref\HW4_9_4_ArrayMinMaxApp.dll
