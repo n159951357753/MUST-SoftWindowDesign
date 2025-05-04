@@ -1,4 +1,6 @@
-
+簡答題目(2):
+  現在有一個 C# 字串 str，請寫出字串方法 ToUpper()、Substring(2, 4) 和 IndexOf("程式") 的輸出結果，如下所示：
+    string str = "Visual C# 程式設計範例教本";
 
 答案:
   str.ToUpper() -->  VISUAL C# 程式設計範例教本
