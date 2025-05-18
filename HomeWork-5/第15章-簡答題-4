@@ -1,0 +1,1 @@
+在 FileInfo 物件建立新文字檔是使用 CreateText 方法，新增文字內容至檔尾是呼叫 AppendText 方法來開啟檔案。
