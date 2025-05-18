@@ -1,0 +1,16 @@
+C:\Users\yu982\Desktop\HW5\13-3\bin\Debug\net8.0-windows\13-3.exe
+C:\Users\yu982\Desktop\HW5\13-3\bin\Debug\net8.0-windows\13-3.deps.json
+C:\Users\yu982\Desktop\HW5\13-3\bin\Debug\net8.0-windows\13-3.runtimeconfig.json
+C:\Users\yu982\Desktop\HW5\13-3\bin\Debug\net8.0-windows\13-3.dll
+C:\Users\yu982\Desktop\HW5\13-3\bin\Debug\net8.0-windows\13-3.pdb
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\_13_3.Form1.resources
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.csproj.GenerateResource.cache
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.AssemblyInfoInputs.cache
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.AssemblyInfo.cs
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.csproj.CoreCompileInputs.cache
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.dll
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\refint\13-3.dll
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.pdb
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\13-3.genruntimeconfig.cache
+C:\Users\yu982\Desktop\HW5\13-3\obj\Debug\net8.0-windows\ref\13-3.dll
