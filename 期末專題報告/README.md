@@ -1,9 +1,17 @@
+
 # 📚 KStudyCenterAdmin 預約管理系統
+
 
 > **明新科大 視窗設計課程期末報告**  
 > Windows Forms 應用程式 — 提供 K 書中心預約管理介面
 
+> 📌 **專案作者**  
+> [ 林芳伃 N10170002 ]
+> [ 孫毓廷 N10170016 ]
+
 ---
+
+
 
 ## 1️⃣ 系統簡介
 
@@ -17,7 +25,10 @@ KStudyCenterAdmin 是一款專為 K 書中心設計的預約管理系統，
 - ✅ 多日期瀏覽與操作
 - ✅ 資料使用 JSON 檔案保存
 
+
 ---
+
+
 
 ## 2️⃣ 資料結構設計
 
@@ -32,7 +43,10 @@ Dictionary<DateTime, List<Reservation>>
 - `Time` → 時間段（例如：08:00、09:00）
 - `Name` → 預約人姓名
 
+
 ---
+
+
 
 ## 3️⃣ 核心功能邏輯
 
@@ -58,7 +72,10 @@ Dictionary<DateTime, List<Reservation>>
 - 每次操作後自動呼叫 `SaveReservations()`  
 - 資料以 JSON 格式寫入檔案，確保資料保留
 
+
 ---
+
+
 
 ## 4️⃣ 主要介面元件
 
@@ -69,7 +86,10 @@ Dictionary<DateTime, List<Reservation>>
 | TextBox         | 輸入批量預約名稱                 |
 | Button 群組     | 前一天、後一天、批量預約、批量刪除、清除勾選 |
 
+
 ---
+
+
 
 ## 5️⃣ 資料存取說明
 
@@ -87,7 +107,10 @@ Dictionary<DateTime, List<Reservation>>
 }
 ```
 
+
 ---
+
+
 
 ## 6️⃣ 程式設計亮點
 
@@ -96,8 +119,14 @@ Dictionary<DateTime, List<Reservation>>
 ✨ 清晰的批量操作與確認視窗  
 ✨ 使用 JSON 格式，容易轉換或擴展  
 
+
 ---
+
+
 
 > 📌 **專案作者**  
 > 明新科技大學 視窗設計課程  
-> [你的名字或學號]
+> [ 林芳伃 N10170002 ]
+> [ 孫毓廷 N10170016 ]
+>
+> 
