@@ -103,15 +103,15 @@ InventoryManager/
 
 ## 🚀 使用說明
 
-- 複製整個debug資料夾，並直接執行其中的 InventoryManager.exe
+- 複製或下載整個debug資料夾，並直接執行其中的 InventoryManager.exe
    ```bash
-   git clone https://github.com/n159951357753/MUST-SoftWindowDesign/tree/main/期末專題報告2-庫存管理系統/src/InventoryManager/InventoryManager/bin/Debug
+   https://github.com/n159951357753/MUST-SoftWindowDesign/tree/main/期末專題報告2-庫存管理系統/src/InventoryManager/InventoryManager/bin/Debug
    ```
 
 - 或按照下方步驟下載並執行專案原始碼
 1. 複製專案程式碼：
    ```bash
-   git clone https://github.com/n159951357753/MUST-SoftWindowDesign/tree/main/期末專題報告2-庫存管理系統/src/InventoryManager
+   git clone https://github.com/n159951357753/期末專題報告2-庫存管理系統.git
    ```
 2. 使用 Visual Studio 開啟方案
 3. 建置並執行專案
