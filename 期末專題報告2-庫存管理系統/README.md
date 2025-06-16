@@ -41,6 +41,7 @@
 |---------|
 | ![history](screenshots/history.png) |
 
+
 ### ➕ 新增零件 / ✏️ 編輯零件
 
 | 新增零件 | 編輯零件 |
