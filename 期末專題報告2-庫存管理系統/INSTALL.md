@@ -18,7 +18,7 @@
 1. 下載本專案或使用 Git 進行 Clone：
 
 ```bash
-git clone https://github.com/yourname/your-project.git
+git clone https://github.com/n159951357753/期末專題報告2-庫存管理系統.git
 ```
 
 2. 使用 Visual Studio 開啟 `.sln` 解決方案檔。
