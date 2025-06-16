@@ -213,7 +213,7 @@
             this.Controls.Add(this.groupOperation);
             this.Controls.Add(this.groupPartInfo);
             this.Name = "FormStockInEdit";
-            this.Text = "FormStockInEdit";
+            this.Text = "零件入庫操作";
             this.Load += new System.EventHandler(this.FormStockInEdit_Load);
             this.groupOperation.ResumeLayout(false);
             this.groupOperation.PerformLayout();

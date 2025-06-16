@@ -54,5 +54,269 @@
     "QuantityChanged": 56,
     "Operator": "Kevin",
     "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-10T18:56:17.7337107+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:40:08.6717746+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:40:24.242001+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:40:38.9397203+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:40:50.3128891+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:41:43.7996477+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:53:58.4615877+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T22:56:13.4969153+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 4,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-15T23:05:56.8423393+08:00",
+    "PartNumber": "AASSS001",
+    "OperationType": "\u522A\u9664\u96F6\u4EF6",
+    "QuantityChanged": 0,
+    "Operator": "Kevin",
+    "Note": "\u624B\u52D5\u522A\u9664\uFF1A"
+  },
+  {
+    "Timestamp": "2025-06-16T00:09:57.2877581+08:00",
+    "PartNumber": "A002",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 50,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:M5"
+  },
+  {
+    "Timestamp": "2025-06-16T00:10:24.8134975+08:00",
+    "PartNumber": "A002",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 50,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-16T00:10:46.1858239+08:00",
+    "PartNumber": "A002",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 51,
+    "Operator": "Kevin",
+    "Note": "\u5EAB\u5B58[50-\u003E51]"
+  },
+  {
+    "Timestamp": "2025-06-16T00:11:13.1078205+08:00",
+    "PartNumber": "A002",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 50,
+    "Operator": "Kevin",
+    "Note": "\u96F6\u4EF6\u540D\u7A31[M5-\u003EM5*20]  \u5EAB\u5B58[51-\u003E50]  \u544A\u6025\u91CF[5-\u003E10]"
+  },
+  {
+    "Timestamp": "2025-06-16T00:11:37.1180933+08:00",
+    "PartNumber": "A002",
+    "OperationType": "\u522A\u9664\u96F6\u4EF6",
+    "QuantityChanged": 0,
+    "Operator": "Kevin",
+    "Note": "\u522A\u9664\uFF1AM5*20"
+  },
+  {
+    "Timestamp": "2025-06-16T00:13:54.1285785+08:00",
+    "PartNumber": "A001",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 100,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-16T00:18:36.0950307+08:00",
+    "PartNumber": "A001",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 100,
+    "Operator": "Kevin",
+    "Note": ""
+  },
+  {
+    "Timestamp": "2025-06-16T00:23:45.8241555+08:00",
+    "PartNumber": "B002",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 36,
+    "Operator": "Kevin",
+    "Note": "\u5099\u8A3B[ [\u51FA\u5EAB-5] [\u51FA\u5EAB-9]-\u003E]"
+  },
+  {
+    "Timestamp": "2025-06-16T00:24:33.3253977+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 5,
+    "Operator": "Kevin",
+    "Note": "\u96F6\u4EF6\u540D\u7A31[\u87BA\u7D72-\u003E\u87BA\u7D72M4*10]  \u5132\u4F4D[D32-415-3-\u003ED32-415-32]  \u5EAB\u5B58[4-\u003E5]  \u544A\u6025\u91CF[5-\u003E10]  \u4E0A\u9650[100-\u003E150]"
+  },
+  {
+    "Timestamp": "2025-06-16T00:26:43.1711459+08:00",
+    "PartNumber": "A001",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 100,
+    "Operator": "Kevin",
+    "Note": "\u5099\u8A3B[\u6E2C\u8A66\u7528-\u003E]"
+  },
+  {
+    "Timestamp": "2025-06-16T00:51:50.6764405+08:00",
+    "PartNumber": "F006",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 100,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:\u87BA\u7D72M12*8"
+  },
+  {
+    "Timestamp": "2025-06-16T00:54:28.6724711+08:00",
+    "PartNumber": "F006",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 100,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:\u87BA\u7D72"
+  },
+  {
+    "Timestamp": "2025-06-16T01:02:54.1341873+08:00",
+    "PartNumber": "F006",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 50,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:\u87BA\u7D72M5*20"
+  },
+  {
+    "Timestamp": "2025-06-16T01:03:48.0378017+08:00",
+    "PartNumber": "F007",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 20,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:\u87BA\u7D72M6*8"
+  },
+  {
+    "Timestamp": "2025-06-16T01:04:02.3190932+08:00",
+    "PartNumber": "F007",
+    "OperationType": "\u522A\u9664\u96F6\u4EF6",
+    "QuantityChanged": 0,
+    "Operator": "Kevin",
+    "Note": "\u522A\u9664\uFF1A\u87BA\u7D72M6*8"
+  },
+  {
+    "Timestamp": "2025-06-16T01:10:59.4226964+08:00",
+    "PartNumber": "F007",
+    "OperationType": "\u522A\u9664\u96F6\u4EF6",
+    "QuantityChanged": 0,
+    "Operator": "Kevin",
+    "Note": "\u522A\u9664\uFF1A\u87BA\u7D72M6*8"
+  },
+  {
+    "Timestamp": "2025-06-16T02:24:44.9614431+08:00",
+    "PartNumber": "C003",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 30,
+    "Operator": "Kevin",
+    "Note": "\u5EAB\u5B58[20-\u003E30]"
+  },
+  {
+    "Timestamp": "2025-06-16T02:38:48.9099701+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u5165\u5EAB",
+    "QuantityChanged": 6,
+    "Operator": "Kevin",
+    "Note": "\u8CA8\u6E90\u70BAA\u5EE0\u5546"
+  },
+  {
+    "Timestamp": "2025-06-16T02:39:59.593893+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 10,
+    "Operator": "Kevin",
+    "Note": "\u5EAB\u5B58[11-\u003E10]"
+  },
+  {
+    "Timestamp": "2025-06-16T02:40:55.4777383+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u51FA\u5EAB",
+    "QuantityChanged": -3,
+    "Operator": "Kevin",
+    "Note": "\u5C08\u6848 20250005"
+  },
+  {
+    "Timestamp": "2025-06-16T10:00:32.4142558+08:00",
+    "PartNumber": "G007",
+    "OperationType": "\u65B0\u589E\u96F6\u4EF6",
+    "QuantityChanged": 60,
+    "Operator": "Kevin",
+    "Note": "\u65B0\u589E:\u87BA\u7D72M6*25"
+  },
+  {
+    "Timestamp": "2025-06-16T10:14:47.0886322+08:00",
+    "PartNumber": "E005",
+    "OperationType": "\u4EBA\u5DE5\u7DE8\u8F2F",
+    "QuantityChanged": 8,
+    "Operator": "Kevin",
+    "Note": "\u5EAB\u5B58[7-\u003E8]"
+  },
+  {
+    "Timestamp": "2025-06-16T10:25:26.3083859+08:00",
+    "PartNumber": "G007",
+    "OperationType": "\u5165\u5EAB",
+    "QuantityChanged": 20,
+    "Operator": "Kevin",
+    "Note": "\u7DB2\u8CFC"
+  },
+  {
+    "Timestamp": "2025-06-16T10:46:55.2651242+08:00",
+    "PartNumber": "D004",
+    "OperationType": "\u51FA\u5EAB",
+    "QuantityChanged": -17,
+    "Operator": "Kevin",
+    "Note": "\u6A5F\u53F0KTR-24501\u7DAD\u4FEE\u4F7F\u7528"
   }
 ]

@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.groupPartInfo = new System.Windows.Forms.GroupBox();
-            this.groupHistory = new System.Windows.Forms.GroupBox();
             this.numUpperLimit = new System.Windows.Forms.NumericUpDown();
             this.numLowerLimit = new System.Windows.Forms.NumericUpDown();
             this.txtLocation = new System.Windows.Forms.TextBox();
@@ -44,19 +43,21 @@
             this.lblPartNumber = new System.Windows.Forms.Label();
             this.txtPartNumber = new System.Windows.Forms.TextBox();
             this.numQuantity = new System.Windows.Forms.NumericUpDown();
+            this.groupHistory = new System.Windows.Forms.GroupBox();
+            this.dgvHistoryPart = new System.Windows.Forms.DataGridView();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Timestamp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OperationType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QuantityChanged = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Operator = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Note = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupPartInfo.SuspendLayout();
-            this.groupHistory.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numUpperLimit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLowerLimit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupHistory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistoryPart)).BeginInit();
             this.SuspendLayout();
             // 
             // groupPartInfo
@@ -83,29 +84,19 @@
             this.groupPartInfo.TabStop = false;
             this.groupPartInfo.Text = "零件資訊";
             // 
-            // groupHistory
-            // 
-            this.groupHistory.Controls.Add(this.dataGridView1);
-            this.groupHistory.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupHistory.Location = new System.Drawing.Point(417, 12);
-            this.groupHistory.Name = "groupHistory";
-            this.groupHistory.Size = new System.Drawing.Size(600, 543);
-            this.groupHistory.TabIndex = 15;
-            this.groupHistory.TabStop = false;
-            this.groupHistory.Text = "進出庫紀錄";
-            // 
             // numUpperLimit
             // 
             this.numUpperLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.numUpperLimit.Location = new System.Drawing.Point(199, 292);
+            this.numUpperLimit.Location = new System.Drawing.Point(199, 240);
             this.numUpperLimit.Name = "numUpperLimit";
             this.numUpperLimit.Size = new System.Drawing.Size(172, 31);
             this.numUpperLimit.TabIndex = 27;
+            this.numUpperLimit.ValueChanged += new System.EventHandler(this.numUpperLimit_ValueChanged);
             // 
             // numLowerLimit
             // 
             this.numLowerLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.numLowerLimit.Location = new System.Drawing.Point(199, 240);
+            this.numLowerLimit.Location = new System.Drawing.Point(199, 292);
             this.numLowerLimit.Name = "numLowerLimit";
             this.numLowerLimit.Size = new System.Drawing.Size(172, 31);
             this.numLowerLimit.TabIndex = 26;
@@ -210,6 +201,7 @@
             this.txtPartNumber.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtPartNumber.Location = new System.Drawing.Point(199, 32);
             this.txtPartNumber.Name = "txtPartNumber";
+            this.txtPartNumber.ReadOnly = true;
             this.txtPartNumber.Size = new System.Drawing.Size(172, 31);
             this.txtPartNumber.TabIndex = 15;
             // 
@@ -221,10 +213,39 @@
             this.numQuantity.Size = new System.Drawing.Size(172, 31);
             this.numQuantity.TabIndex = 14;
             // 
+            // groupHistory
+            // 
+            this.groupHistory.Controls.Add(this.dgvHistoryPart);
+            this.groupHistory.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupHistory.Location = new System.Drawing.Point(417, 12);
+            this.groupHistory.Name = "groupHistory";
+            this.groupHistory.Size = new System.Drawing.Size(753, 543);
+            this.groupHistory.TabIndex = 15;
+            this.groupHistory.TabStop = false;
+            this.groupHistory.Text = "零件歷史紀錄";
+            // 
+            // dgvHistoryPart
+            // 
+            this.dgvHistoryPart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvHistoryPart.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Timestamp,
+            this.OperationType,
+            this.QuantityChanged,
+            this.Operator,
+            this.Note});
+            this.dgvHistoryPart.Location = new System.Drawing.Point(6, 37);
+            this.dgvHistoryPart.Name = "dgvHistoryPart";
+            this.dgvHistoryPart.ReadOnly = true;
+            this.dgvHistoryPart.RowHeadersWidth = 51;
+            this.dgvHistoryPart.RowTemplate.Height = 27;
+            this.dgvHistoryPart.Size = new System.Drawing.Size(741, 500);
+            this.dgvHistoryPart.TabIndex = 0;
+            this.dgvHistoryPart.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHistoryPart_CellContentClick);
+            // 
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnCancel.Location = new System.Drawing.Point(605, 574);
+            this.btnCancel.Location = new System.Drawing.Point(682, 574);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(241, 47);
             this.btnCancel.TabIndex = 16;
@@ -235,7 +256,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnSave.Location = new System.Drawing.Point(183, 574);
+            this.btnSave.Location = new System.Drawing.Point(260, 574);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(241, 47);
             this.btnSave.TabIndex = 17;
@@ -243,54 +264,51 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // dataGridView1
+            // Timestamp
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(6, 63);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(588, 474);
-            this.dataGridView1.TabIndex = 0;
+            this.Timestamp.HeaderText = "日期";
+            this.Timestamp.MinimumWidth = 6;
+            this.Timestamp.Name = "Timestamp";
+            this.Timestamp.ReadOnly = true;
+            this.Timestamp.Width = 150;
             // 
-            // Column1
+            // OperationType
             // 
-            this.Column1.HeaderText = "日期";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
+            this.OperationType.HeaderText = "操作類型";
+            this.OperationType.MinimumWidth = 6;
+            this.OperationType.Name = "OperationType";
+            this.OperationType.ReadOnly = true;
+            this.OperationType.Width = 80;
             // 
-            // Column2
+            // QuantityChanged
             // 
-            this.Column2.HeaderText = "類型";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 80;
+            this.QuantityChanged.HeaderText = "異動數量";
+            this.QuantityChanged.MinimumWidth = 6;
+            this.QuantityChanged.Name = "QuantityChanged";
+            this.QuantityChanged.ReadOnly = true;
+            this.QuantityChanged.Width = 80;
             // 
-            // Column3
+            // Operator
             // 
-            this.Column3.HeaderText = "數量";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 80;
+            this.Operator.HeaderText = "操作人員";
+            this.Operator.MinimumWidth = 6;
+            this.Operator.Name = "Operator";
+            this.Operator.ReadOnly = true;
+            this.Operator.Width = 80;
             // 
-            // Column4
+            // Note
             // 
-            this.Column4.HeaderText = "操作人員";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
+            this.Note.HeaderText = "備註";
+            this.Note.MinimumWidth = 6;
+            this.Note.Name = "Note";
+            this.Note.ReadOnly = true;
+            this.Note.Width = 600;
             // 
             // FormEditPart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1029, 633);
+            this.ClientSize = new System.Drawing.Size(1182, 633);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.groupHistory);
@@ -300,11 +318,11 @@
             this.Load += new System.EventHandler(this.FormEditPart_Load);
             this.groupPartInfo.ResumeLayout(false);
             this.groupPartInfo.PerformLayout();
-            this.groupHistory.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numUpperLimit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLowerLimit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupHistory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvHistoryPart)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -327,12 +345,13 @@
         private System.Windows.Forms.Label lblPartNumber;
         private System.Windows.Forms.TextBox txtPartNumber;
         private System.Windows.Forms.NumericUpDown numQuantity;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvHistoryPart;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Timestamp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OperationType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn QuantityChanged;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Operator;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Note;
     }
 }

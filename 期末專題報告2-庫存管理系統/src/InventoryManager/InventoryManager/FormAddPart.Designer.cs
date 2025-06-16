@@ -45,6 +45,7 @@
             this.txtPartNumber = new System.Windows.Forms.TextBox();
             this.numQuantity = new System.Windows.Forms.NumericUpDown();
             this.groupPartInfo = new System.Windows.Forms.GroupBox();
+            this.label_numwarn = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numUpperLimit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLowerLimit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
@@ -65,7 +66,7 @@
             // numUpperLimit
             // 
             this.numUpperLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.numUpperLimit.Location = new System.Drawing.Point(229, 292);
+            this.numUpperLimit.Location = new System.Drawing.Point(229, 279);
             this.numUpperLimit.Name = "numUpperLimit";
             this.numUpperLimit.Size = new System.Drawing.Size(172, 31);
             this.numUpperLimit.TabIndex = 27;
@@ -73,15 +74,16 @@
             // numLowerLimit
             // 
             this.numLowerLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.numLowerLimit.Location = new System.Drawing.Point(229, 240);
+            this.numLowerLimit.Location = new System.Drawing.Point(229, 331);
             this.numLowerLimit.Name = "numLowerLimit";
             this.numLowerLimit.Size = new System.Drawing.Size(172, 31);
             this.numLowerLimit.TabIndex = 26;
+            this.numLowerLimit.ValueChanged += new System.EventHandler(this.numLowerLimit_ValueChanged);
             // 
             // txtLocation
             // 
             this.txtLocation.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtLocation.Location = new System.Drawing.Point(229, 136);
+            this.txtLocation.Location = new System.Drawing.Point(229, 175);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(172, 31);
             this.txtLocation.TabIndex = 25;
@@ -89,7 +91,7 @@
             // txtPartName
             // 
             this.txtPartName.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtPartName.Location = new System.Drawing.Point(229, 84);
+            this.txtPartName.Location = new System.Drawing.Point(229, 123);
             this.txtPartName.Name = "txtPartName";
             this.txtPartName.Size = new System.Drawing.Size(172, 31);
             this.txtPartName.TabIndex = 24;
@@ -108,17 +110,17 @@
             // txtNote
             // 
             this.txtNote.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtNote.Location = new System.Drawing.Point(107, 347);
+            this.txtNote.Location = new System.Drawing.Point(107, 386);
             this.txtNote.Multiline = true;
             this.txtNote.Name = "txtNote";
-            this.txtNote.Size = new System.Drawing.Size(294, 180);
+            this.txtNote.Size = new System.Drawing.Size(294, 127);
             this.txtNote.TabIndex = 23;
             // 
             // lblNote
             // 
             this.lblNote.AutoSize = true;
             this.lblNote.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblNote.Location = new System.Drawing.Point(52, 349);
+            this.lblNote.Location = new System.Drawing.Point(52, 388);
             this.lblNote.Name = "lblNote";
             this.lblNote.Size = new System.Drawing.Size(49, 20);
             this.lblNote.TabIndex = 22;
@@ -128,7 +130,7 @@
             // 
             this.lblUpperLimit.AutoSize = true;
             this.lblUpperLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblUpperLimit.Location = new System.Drawing.Point(52, 245);
+            this.lblUpperLimit.Location = new System.Drawing.Point(52, 284);
             this.lblUpperLimit.Name = "lblUpperLimit";
             this.lblUpperLimit.Size = new System.Drawing.Size(49, 20);
             this.lblUpperLimit.TabIndex = 21;
@@ -138,7 +140,7 @@
             // 
             this.lblLowerLimit.AutoSize = true;
             this.lblLowerLimit.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblLowerLimit.Location = new System.Drawing.Point(52, 297);
+            this.lblLowerLimit.Location = new System.Drawing.Point(52, 336);
             this.lblLowerLimit.Name = "lblLowerLimit";
             this.lblLowerLimit.Size = new System.Drawing.Size(129, 20);
             this.lblLowerLimit.TabIndex = 20;
@@ -148,7 +150,7 @@
             // 
             this.lblQuantity.AutoSize = true;
             this.lblQuantity.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblQuantity.Location = new System.Drawing.Point(52, 193);
+            this.lblQuantity.Location = new System.Drawing.Point(52, 232);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(89, 20);
             this.lblQuantity.TabIndex = 19;
@@ -158,7 +160,7 @@
             // 
             this.lblLocation.AutoSize = true;
             this.lblLocation.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblLocation.Location = new System.Drawing.Point(52, 141);
+            this.lblLocation.Location = new System.Drawing.Point(52, 180);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(89, 20);
             this.lblLocation.TabIndex = 18;
@@ -168,7 +170,7 @@
             // 
             this.lblPartName.AutoSize = true;
             this.lblPartName.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lblPartName.Location = new System.Drawing.Point(52, 89);
+            this.lblPartName.Location = new System.Drawing.Point(52, 128);
             this.lblPartName.Name = "lblPartName";
             this.lblPartName.Size = new System.Drawing.Size(89, 20);
             this.lblPartName.TabIndex = 17;
@@ -195,13 +197,14 @@
             // numQuantity
             // 
             this.numQuantity.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.numQuantity.Location = new System.Drawing.Point(229, 188);
+            this.numQuantity.Location = new System.Drawing.Point(229, 227);
             this.numQuantity.Name = "numQuantity";
             this.numQuantity.Size = new System.Drawing.Size(172, 31);
             this.numQuantity.TabIndex = 14;
             // 
             // groupPartInfo
             // 
+            this.groupPartInfo.Controls.Add(this.label_numwarn);
             this.groupPartInfo.Controls.Add(this.numUpperLimit);
             this.groupPartInfo.Controls.Add(this.numLowerLimit);
             this.groupPartInfo.Controls.Add(this.txtLocation);
@@ -223,6 +226,18 @@
             this.groupPartInfo.TabIndex = 18;
             this.groupPartInfo.TabStop = false;
             this.groupPartInfo.Text = "零件資訊";
+            // 
+            // label_numwarn
+            // 
+            this.label_numwarn.AutoSize = true;
+            this.label_numwarn.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label_numwarn.ForeColor = System.Drawing.Color.Red;
+            this.label_numwarn.Location = new System.Drawing.Point(74, 70);
+            this.label_numwarn.Name = "label_numwarn";
+            this.label_numwarn.Size = new System.Drawing.Size(314, 34);
+            this.label_numwarn.TabIndex = 28;
+            this.label_numwarn.Text = "零件編號建立成功後不可編輯更改\r\n且編號具唯一性，只可透過刪除零件重建";
+            this.label_numwarn.Click += new System.EventHandler(this.label_numwarn_Click);
             // 
             // FormAddPart
             // 
@@ -263,5 +278,6 @@
         private System.Windows.Forms.TextBox txtPartNumber;
         private System.Windows.Forms.NumericUpDown numQuantity;
         private System.Windows.Forms.GroupBox groupPartInfo;
+        private System.Windows.Forms.Label label_numwarn;
     }
 }

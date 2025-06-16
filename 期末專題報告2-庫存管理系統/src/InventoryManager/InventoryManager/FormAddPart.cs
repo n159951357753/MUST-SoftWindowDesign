@@ -63,5 +63,15 @@ namespace InventoryManager
         {
 
         }
+
+        private void numLowerLimit_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_numwarn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

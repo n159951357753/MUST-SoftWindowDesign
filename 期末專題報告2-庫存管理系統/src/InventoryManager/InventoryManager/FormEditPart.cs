@@ -27,6 +27,7 @@ namespace InventoryManager
             this.Close();
         }
 
+        public List<tabControlMain.StockHistoryEntry> HistoryList { get; set; }
 
         public tabControlMain.Part EditedPart
         {
@@ -62,12 +63,95 @@ namespace InventoryManager
                 numUpperLimit.Value = value.UpperLimit;
 
                 txtNote.Text = value.Note;
+
+                LoadPartHistory(value.PartNumber);
             }
 
         }
 
 
+
+        private void LoadPartHistory(string partNumber)
+        {
+            if (HistoryList == null) return;
+
+            var filtered = HistoryList
+                .Where(h => h.PartNumber == partNumber)
+                .OrderByDescending(h => h.Timestamp)
+                .ToList();
+
+            dgvHistoryPart.DataSource = null;           // 清除前一筆
+            dgvHistoryPart.AutoGenerateColumns = false; // 使用 Designer 設定的欄位
+            dgvHistoryPart.DataSource = filtered;       // 直接套用物件清單
+        }
+
+
+        private void SetupHistoryGrid()
+        {
+            dgvHistoryPart.Columns.Clear();
+            dgvHistoryPart.AutoGenerateColumns = false;
+
+            dgvHistoryPart.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                Name = "Timestamp",
+                HeaderText = "時間",
+                Width = 150
+            });
+
+            dgvHistoryPart.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                Name = "OperationType",
+                HeaderText = "操作類型",
+                Width = 100
+            });
+
+            dgvHistoryPart.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                Name = "QuantityChanged",
+                HeaderText = "數量變動",
+                Width = 100
+            });
+
+            dgvHistoryPart.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                Name = "Operator",
+                HeaderText = "操作人",
+                Width = 100
+            });
+
+            dgvHistoryPart.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                Name = "Note",
+                HeaderText = "備註",
+                Width = 600
+            });
+
+            dgvHistoryPart.AllowUserToAddRows = false;
+            dgvHistoryPart.ReadOnly = true;
+        }
+
+
+
         private void FormEditPart_Load(object sender, EventArgs e)
+        {
+
+
+            //SetupHistoryGrid();
+
+            // 綁定資料欄位名稱（DataPropertyName）
+            Timestamp.DataPropertyName = "Timestamp";
+            OperationType.DataPropertyName = "OperationType";
+            QuantityChanged.DataPropertyName = "QuantityChanged";
+            Operator.DataPropertyName = "Operator";
+            Note.DataPropertyName = "Note";
+        }
+
+        private void numUpperLimit_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvHistoryPart_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

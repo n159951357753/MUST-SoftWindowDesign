@@ -42,9 +42,8 @@
             this.btnDeletePart = new System.Windows.Forms.Button();
             this.btnAddPart = new System.Windows.Forms.Button();
             this.dgvParts = new System.Windows.Forms.DataGridView();
-            this.lblSearchCount = new System.Windows.Forms.Label();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnPrev = new System.Windows.Forms.Button();
+            this.btnClearSearch = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.cmbSearchField = new System.Windows.Forms.ComboBox();
             this.txtSearchKeyword = new System.Windows.Forms.TextBox();
             this.tabHistory = new System.Windows.Forms.TabPage();
@@ -53,8 +52,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dgvHistory = new System.Windows.Forms.DataGridView();
             this.btnSearchHistory = new System.Windows.Forms.Button();
-            this.dtEnd = new System.Windows.Forms.DateTimePicker();
-            this.dtStart = new System.Windows.Forms.DateTimePicker();
+            this.dtEndHistory = new System.Windows.Forms.DateTimePicker();
+            this.dtStartHistory = new System.Windows.Forms.DateTimePicker();
             this.txtKeywordHistory = new System.Windows.Forms.TextBox();
             this.chkSelect = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.PartNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,6 +63,7 @@
             this.LowerLimit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UpperLimit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Note = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSearchHistoryCancel = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabOverview.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -154,9 +154,8 @@
             this.tabInventory.Controls.Add(this.btnDeletePart);
             this.tabInventory.Controls.Add(this.btnAddPart);
             this.tabInventory.Controls.Add(this.dgvParts);
-            this.tabInventory.Controls.Add(this.lblSearchCount);
-            this.tabInventory.Controls.Add(this.btnNext);
-            this.tabInventory.Controls.Add(this.btnPrev);
+            this.tabInventory.Controls.Add(this.btnClearSearch);
+            this.tabInventory.Controls.Add(this.btnSearch);
             this.tabInventory.Controls.Add(this.cmbSearchField);
             this.tabInventory.Controls.Add(this.txtSearchKeyword);
             this.tabInventory.Location = new System.Drawing.Point(4, 30);
@@ -180,7 +179,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(445, 35);
+            this.label4.Location = new System.Drawing.Point(497, 35);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 20);
             this.label4.TabIndex = 10;
@@ -215,6 +214,7 @@
             this.btnDeletePart.TabIndex = 7;
             this.btnDeletePart.Text = "刪除零件";
             this.btnDeletePart.UseVisualStyleBackColor = true;
+            this.btnDeletePart.Click += new System.EventHandler(this.btnDeletePart_Click);
             // 
             // btnAddPart
             // 
@@ -246,45 +246,37 @@
             this.dgvParts.TabIndex = 5;
             this.dgvParts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvParts_CellContentClick);
             // 
-            // lblSearchCount
+            // btnClearSearch
             // 
-            this.lblSearchCount.AutoSize = true;
-            this.lblSearchCount.Location = new System.Drawing.Point(1224, 35);
-            this.lblSearchCount.Name = "lblSearchCount";
-            this.lblSearchCount.Size = new System.Drawing.Size(50, 20);
-            this.lblSearchCount.TabIndex = 4;
-            this.lblSearchCount.Text = "0/000";
-            this.lblSearchCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnClearSearch.Location = new System.Drawing.Point(1123, 30);
+            this.btnClearSearch.Name = "btnClearSearch";
+            this.btnClearSearch.Size = new System.Drawing.Size(114, 30);
+            this.btnClearSearch.TabIndex = 3;
+            this.btnClearSearch.Text = "清除搜尋";
+            this.btnClearSearch.UseVisualStyleBackColor = true;
+            this.btnClearSearch.Click += new System.EventHandler(this.btnClearSearch_Click);
             // 
-            // btnNext
+            // btnSearch
             // 
-            this.btnNext.Location = new System.Drawing.Point(1071, 30);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(114, 30);
-            this.btnNext.TabIndex = 3;
-            this.btnNext.Text = "下一筆";
-            this.btnNext.UseVisualStyleBackColor = true;
-            // 
-            // btnPrev
-            // 
-            this.btnPrev.Location = new System.Drawing.Point(942, 30);
-            this.btnPrev.Name = "btnPrev";
-            this.btnPrev.Size = new System.Drawing.Size(114, 30);
-            this.btnPrev.TabIndex = 2;
-            this.btnPrev.Text = "上一筆";
-            this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnSearch.Location = new System.Drawing.Point(993, 30);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(114, 30);
+            this.btnSearch.TabIndex = 2;
+            this.btnSearch.Text = "搜尋";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // cmbSearchField
             // 
             this.cmbSearchField.FormattingEnabled = true;
-            this.cmbSearchField.Location = new System.Drawing.Point(771, 31);
+            this.cmbSearchField.Location = new System.Drawing.Point(820, 31);
             this.cmbSearchField.Name = "cmbSearchField";
-            this.cmbSearchField.Size = new System.Drawing.Size(121, 28);
+            this.cmbSearchField.Size = new System.Drawing.Size(144, 28);
             this.cmbSearchField.TabIndex = 1;
             // 
             // txtSearchKeyword
             // 
-            this.txtSearchKeyword.Location = new System.Drawing.Point(525, 30);
+            this.txtSearchKeyword.Location = new System.Drawing.Point(577, 30);
             this.txtSearchKeyword.Name = "txtSearchKeyword";
             this.txtSearchKeyword.Size = new System.Drawing.Size(214, 31);
             this.txtSearchKeyword.TabIndex = 0;
@@ -292,13 +284,14 @@
             // 
             // tabHistory
             // 
+            this.tabHistory.Controls.Add(this.btnSearchHistoryCancel);
             this.tabHistory.Controls.Add(this.label3);
             this.tabHistory.Controls.Add(this.label2);
             this.tabHistory.Controls.Add(this.label1);
             this.tabHistory.Controls.Add(this.dgvHistory);
             this.tabHistory.Controls.Add(this.btnSearchHistory);
-            this.tabHistory.Controls.Add(this.dtEnd);
-            this.tabHistory.Controls.Add(this.dtStart);
+            this.tabHistory.Controls.Add(this.dtEndHistory);
+            this.tabHistory.Controls.Add(this.dtStartHistory);
             this.tabHistory.Controls.Add(this.txtKeywordHistory);
             this.tabHistory.Location = new System.Drawing.Point(4, 30);
             this.tabHistory.Name = "tabHistory";
@@ -310,7 +303,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(834, 41);
+            this.label3.Location = new System.Drawing.Point(723, 41);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 20);
             this.label3.TabIndex = 7;
@@ -320,7 +313,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(548, 41);
+            this.label2.Location = new System.Drawing.Point(437, 41);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 6;
@@ -329,7 +322,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(161, 41);
+            this.label1.Location = new System.Drawing.Point(50, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(114, 20);
             this.label1.TabIndex = 5;
@@ -347,30 +340,31 @@
             // 
             // btnSearchHistory
             // 
-            this.btnSearchHistory.Location = new System.Drawing.Point(1153, 36);
+            this.btnSearchHistory.Location = new System.Drawing.Point(1024, 36);
             this.btnSearchHistory.Name = "btnSearchHistory";
             this.btnSearchHistory.Size = new System.Drawing.Size(107, 31);
             this.btnSearchHistory.TabIndex = 3;
             this.btnSearchHistory.Text = "查詢";
             this.btnSearchHistory.UseVisualStyleBackColor = true;
+            this.btnSearchHistory.Click += new System.EventHandler(this.btnSearchHistory_Click);
             // 
-            // dtEnd
+            // dtEndHistory
             // 
-            this.dtEnd.Location = new System.Drawing.Point(893, 36);
-            this.dtEnd.Name = "dtEnd";
-            this.dtEnd.Size = new System.Drawing.Size(200, 31);
-            this.dtEnd.TabIndex = 2;
+            this.dtEndHistory.Location = new System.Drawing.Point(782, 36);
+            this.dtEndHistory.Name = "dtEndHistory";
+            this.dtEndHistory.Size = new System.Drawing.Size(200, 31);
+            this.dtEndHistory.TabIndex = 2;
             // 
-            // dtStart
+            // dtStartHistory
             // 
-            this.dtStart.Location = new System.Drawing.Point(607, 36);
-            this.dtStart.Name = "dtStart";
-            this.dtStart.Size = new System.Drawing.Size(200, 31);
-            this.dtStart.TabIndex = 1;
+            this.dtStartHistory.Location = new System.Drawing.Point(496, 36);
+            this.dtStartHistory.Name = "dtStartHistory";
+            this.dtStartHistory.Size = new System.Drawing.Size(200, 31);
+            this.dtStartHistory.TabIndex = 1;
             // 
             // txtKeywordHistory
             // 
-            this.txtKeywordHistory.Location = new System.Drawing.Point(286, 36);
+            this.txtKeywordHistory.Location = new System.Drawing.Point(175, 36);
             this.txtKeywordHistory.Name = "txtKeywordHistory";
             this.txtKeywordHistory.Size = new System.Drawing.Size(245, 31);
             this.txtKeywordHistory.TabIndex = 0;
@@ -427,6 +421,7 @@
             this.UpperLimit.HeaderText = "上限";
             this.UpperLimit.MinimumWidth = 6;
             this.UpperLimit.Name = "UpperLimit";
+            this.UpperLimit.ReadOnly = true;
             this.UpperLimit.Width = 80;
             // 
             // Note
@@ -436,6 +431,16 @@
             this.Note.Name = "Note";
             this.Note.ReadOnly = true;
             this.Note.Width = 125;
+            // 
+            // btnSearchHistoryCancel
+            // 
+            this.btnSearchHistoryCancel.Location = new System.Drawing.Point(1149, 36);
+            this.btnSearchHistoryCancel.Name = "btnSearchHistoryCancel";
+            this.btnSearchHistoryCancel.Size = new System.Drawing.Size(107, 31);
+            this.btnSearchHistoryCancel.TabIndex = 8;
+            this.btnSearchHistoryCancel.Text = "顯示全部";
+            this.btnSearchHistoryCancel.UseVisualStyleBackColor = true;
+            this.btnSearchHistoryCancel.Click += new System.EventHandler(this.btnSearchHistoryCancel_Click);
             // 
             // tabControlMain
             // 
@@ -474,9 +479,8 @@
         private System.Windows.Forms.DataGridView dgvRecentTransactions;
         private System.Windows.Forms.ComboBox cmbSearchField;
         private System.Windows.Forms.TextBox txtSearchKeyword;
-        private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Button btnPrev;
-        private System.Windows.Forms.Label lblSearchCount;
+        private System.Windows.Forms.Button btnClearSearch;
+        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dgvParts;
         private System.Windows.Forms.Button btnStockOut;
         private System.Windows.Forms.Button btnStockIn;
@@ -484,8 +488,8 @@
         private System.Windows.Forms.Button btnAddPart;
         private System.Windows.Forms.DataGridView dgvHistory;
         private System.Windows.Forms.Button btnSearchHistory;
-        private System.Windows.Forms.DateTimePicker dtEnd;
-        private System.Windows.Forms.DateTimePicker dtStart;
+        private System.Windows.Forms.DateTimePicker dtEndHistory;
+        private System.Windows.Forms.DateTimePicker dtStartHistory;
         private System.Windows.Forms.TextBox txtKeywordHistory;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -500,6 +504,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn LowerLimit;
         private System.Windows.Forms.DataGridViewTextBoxColumn UpperLimit;
         private System.Windows.Forms.DataGridViewTextBoxColumn Note;
+        private System.Windows.Forms.Button btnSearchHistoryCancel;
     }
 }
 
