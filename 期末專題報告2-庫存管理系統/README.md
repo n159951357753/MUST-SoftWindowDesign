@@ -111,9 +111,9 @@ InventoryManager/
 - 或按照下方步驟下載並執行專案原始碼
 1. 複製專案程式碼：
    ```bash
-   git clone https://github.com/n159951357753/期末專題報告2-庫存管理系統.git
+   git clone https://github.com/n159951357753/MUST-SoftWindowDesign.git
    ```
-2. 使用 Visual Studio 開啟方案
+2. 使用 Visual Studio 開啟方案: MUST-SoftWindowDesign/期末專題報告2-庫存管理系統/src/InventoryManager
 3. 建置並執行專案
 4. 開始使用圖形介面進行零件與庫存管理
 
