@@ -29,9 +29,17 @@
 
 ### 🎛️ 主畫面 – 三分頁
 
-| 庫存總覽 | 庫存管理 | 歷史紀錄 |
-|---------|---------|---------|
-| ![overview](screenshots/overview.png) | ![manage](screenshots/manage.png) | ![history](screenshots/history.png) |
+| 庫存總覽 |
+|---------|
+| ![overview](screenshots/overview.png) |
+
+| 庫存管理 |
+|---------|
+| ![manage](screenshots/manage.png) |
+
+| 歷史紀錄 |
+|---------|
+| ![history](screenshots/history.png) |
 
 ### ➕ 新增零件 / ✏️ 編輯零件
 
