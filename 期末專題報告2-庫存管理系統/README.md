@@ -12,6 +12,9 @@
 - 📁 使用 JSON 格式進行本地資料儲存（parts.json / history.json）
 - 👁️ 直覺式三分頁介面：總覽 / 管理 / 歷史紀錄
 
+
+
+
 ## 🖼️ 操作畫面示意
 
 ### 🎛️ 主畫面 – 三分頁
@@ -25,12 +28,22 @@
 | 新增零件 | 編輯零件 |
 |---------|---------|
 | ![add](screenshots/add.png) | ![edit](screenshots/edit.png) |
+| ![addSuccessMsg](screenshots/addSuccessMsg.png) | ![editSuccessMsg](screenshots/editSuccessMsg.png) |
 
 ### 📥 入庫 / 📤 出庫
 
 | 入庫 | 出庫 |
 |------|------|
 | ![in](screenshots/stockin.png) | ![out](screenshots/stockout.png) |
+| ![inSuccessMsg](screenshots/stockinSuccessMsg.png) | ![outSuccessMsg](screenshots/stockoutSuccessMsg.png) |
+
+### 🔍 關鍵字與日期篩選功能
+
+| 庫存管理(可篩選關鍵字範圍) | 歷史查詢(可篩選關鍵字與時間範圍) |
+|------|------|
+| ![PartsSearchField](screenshots/PartsSearchField.png) | ![SearchTimeSet](screenshots/HistorySearchTimeSet.png) |
+| ![PartsSearch](screenshots/PartsSearch.png) | ![HistorySearch](screenshots/HistorySearch.png) |
+
 
 ## ⚙️ 系統架構
 
@@ -48,6 +61,9 @@
 +-------------------------+
 ```
 
+
+
+
 ## 🧱 專案結構
 
 ```
@@ -63,21 +79,30 @@ InventoryManager/
 └── screenshots/             # 畫面截圖資料夾
 ```
 
+
+
+
 ## 🛠 開發環境
 
 - 🧰 開發工具：Visual Studio 2022
 - 🧱 .NET Framework：4.8
 - 💾 資料格式：System.Text.Json 處理 JSON 讀寫
 
+
+
+
 ## 🚀 使用說明
 
 1. 複製專案程式碼：
    ```bash
-   git clone https://github.com/your-username/inventory-manager.git
+   git clone https://github.com/n159951357753/MUST-SoftWindowDesign/tree/main/%E6%9C%9F%E6%9C%AB%E5%B0%88%E9%A1%8C%E5%A0%B1%E5%91%8A2-%E5%BA%AB%E5%AD%98%E7%AE%A1%E7%90%86%E7%B3%BB%E7%B5%B1/InventoryManager
    ```
 2. 使用 Visual Studio 開啟方案
 3. 建置並執行專案
 4. 開始使用圖形介面進行零件與庫存管理
+
+
+
 
 ## 📌 未來規劃
 
@@ -87,4 +112,4 @@ InventoryManager/
 
 ## 📝 授權條款
 
-MIT 授權條款 © 2025 Your Name
+MIT 授權條款 © 2025 林芳伃
