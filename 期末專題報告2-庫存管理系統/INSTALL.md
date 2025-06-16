@@ -43,4 +43,5 @@ git clone https://github.com/n159951357753/期末專題報告2-庫存管理系�
 
 - 若出現權限或載入資源錯誤，請確保以管理員模式執行 Visual Studio
 - 若有外部 DLL 或資源請放入 `src/Libs/` 內
+- 刪除文件夾內的 `parts.json` 與 `history.json` 可以清除全部零件與歷史的資料紀錄
 
