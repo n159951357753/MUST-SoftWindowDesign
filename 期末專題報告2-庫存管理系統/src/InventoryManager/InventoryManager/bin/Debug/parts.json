@@ -1,0 +1,38 @@
+[
+  {
+    "PartNumber": "A001",
+    "PartName": "\u87BA\u7D72",
+    "StorageLocation": "\u6AC31",
+    "Quantity": 100,
+    "LowerLimit": 20,
+    "UpperLimit": 200,
+    "Note": "\u6E2C\u8A66\u7528"
+  },
+  {
+    "PartNumber": "B002",
+    "PartName": "\u588A\u7247",
+    "StorageLocation": "\u6AC32",
+    "Quantity": 36,
+    "LowerLimit": 10,
+    "UpperLimit": 150,
+    "Note": " [\u51FA\u5EAB-5] [\u51FA\u5EAB-9]"
+  },
+  {
+    "PartNumber": "C003",
+    "PartName": "\u588A\u7247",
+    "StorageLocation": "\u6AC32",
+    "Quantity": 20,
+    "LowerLimit": 5,
+    "UpperLimit": 180,
+    "Note": ""
+  },
+  {
+    "PartNumber": "D004",
+    "PartName": "\u588A\u7247",
+    "StorageLocation": "\u6AC32",
+    "Quantity": 56,
+    "LowerLimit": 10,
+    "UpperLimit": 300,
+    "Note": ""
+  }
+]
